@@ -75,6 +75,15 @@ using namespace std;
 //bool compare(Person& p, Person& q) {
 //	return p.get_age() < q.get_age();
 //}
+//Lab4
+//class Movie {
+//private:
+//	string title;
+//	double rating;
+//public:
+//	Movie(string t = "", double r = 0.0) { title = t; rating = r; }
+//	void print_movie() { cout << title << ": " << rating << endl; }
+//};
 
 int main() {
 
@@ -149,5 +158,34 @@ int main() {
 	//for (auto& e : list) {
 	//	e.print();
 	//}
+	//Lab3
+	//vector<int> scores;
+	//int i, sum = 0;
+
+	//while (true)
+	//{
+	//	int score;
+	//	cout << "성적을 입력하시오(종료는 -1) : ";
+	//	cin >> score;
+	//	if (score == -1) break;
+	//	scores.push_back(score);
+	//}
+
+	//for (auto& value : scores) {
+	//	sum += value;
+	//}
+	//double avg = (double)sum / scores.size();
+	//cout << "성적 평균=" << avg << endl;
+	//Lab4
+	//vector<Movie> movies;
+
+	//movies.push_back(Movie("titinic", 9.9));
+	//movies.push_back(Movie("gone with the wind", 9.6));
+	//movies.push_back(Movie("terminator", 9.7));
+	//
+	//for (auto& e : movies) {
+	//	e.print_movie();
+	//}
+
 	return 0;
 }
